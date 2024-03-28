@@ -1,0 +1,28 @@
+.container{
+  display:flex;
+  flex-direction: column;
+}
+.navBarCss {
+  height: 650px;
+  width: 1921px;
+  background: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600px;
+}
+nav {
+  width: 725.24px;
+
+}
+
+/* https://www.figma.com/file/MSutr7amn9zrsUkWQqfTS0/Assignment?type=design&node-id=1-2&mode=design&t=7uD2CTYAwm4BTZ9a-0 */
