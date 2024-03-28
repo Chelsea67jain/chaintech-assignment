@@ -7,6 +7,98 @@
   width: 1921px;
   background: black;
 }
+.navBarSubDivCss{
+  display:flex;
+  position: absolute; 
+  color: #fff; 
+  letter-spacing: 1
+}
+.logoCss{
+ display: flex;
+          align-items: center;
+          position: relative;
+          top: 27.5px;
+          left: 348px;
+          width: 165px;
+          height: 48.5px;
+          font-size: 30px;
+}
+.welcomeContainerCss{
+  position:absolute;
+  top:110px;
+  left:400px;
+  font-weight: 800;
+  font-family: Poppins;
+  font-size: 120px;
+  color:#fff
+}
+.tochaintechcss{
+  position:relative;
+  right:100px;
+}
+.welcomeContainerSubdiv{
+  position:relative;
+  right:90px;
+  font-weight: 400px;
+  font-size: 18px;
+  text-align: center;
+}
+.getStartedCss{
+  position:relative;
+  width:211px;
+  height:66px;
+  background:#fff;
+  border:3px solid #fff;
+  border-radius:50px;
+  left:180px;top:10px; 
+  font-weight: 500px;
+  font-size: 18px;
+  color:#000;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.servicesCss{
+  font-size: 50px;
+  font-weight: 600px;
+}
+.servicesContainer{
+  position:relative;
+  top:40px;
+  left:200px;
+  font-family: Poppins;
+}
+.offeredServicesDivCss{
+display: flex;
+justify-content:center;
+width:1032px;
+}
+.blockchaindiv{
+  position:relative;
+  top:60px;
+  width:293px;
+  height:410px;
+  position:relative;
+  
+  border-radius:10px;
+  border:3px solid #000;
+}
+.blockchaindivheading{
+  display: flex;
+  position:relative;
+  top:10px;
+  left:10px
+}
+.exploredivcss{
+  position:relative;
+  top:45px;
+  left:120px;
+  border:2px solid #000;
+  background-color: #fff;
+  width:117.8px;height:38.55px;
+  border-radius:50px;padding:5px;
+  display:flex;align-items: center;justify-content: space-between;
+}
 ul {
   list-style-type: none;
   margin: 0;
