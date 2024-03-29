@@ -1,5 +1,5 @@
-.container{
-  display:flex;
+.container {
+  display: flex;
   flex-direction: column;
 }
 .navBarCss {
@@ -7,97 +7,146 @@
   width: 1921px;
   background: black;
 }
-.navBarSubDivCss{
-  display:flex;
-  position: absolute; 
-  color: #fff; 
-  letter-spacing: 1
+.navBarDivCss {
+  display: flex;
+  position: absolute;
+  color: #fff;
+  letter-spacing: 1;
 }
-.logoCss{
- display: flex;
-          align-items: center;
-          position: relative;
-          top: 27.5px;
-          left: 348px;
-          width: 165px;
-          height: 48.5px;
-          font-size: 30px;
+.navBarSubDivCss {
+  position: relative;
+  top: 37px;
+  left: 450px;
 }
-.welcomeContainerCss{
-  position:absolute;
-  top:110px;
-  left:400px;
+.logoCss {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 27.5px;
+  left: 348px;
+  width: 165px;
+  height: 48.5px;
+  font-size: 30px;
+}
+.welcomeContainerCss {
+  position: absolute;
+  top: 110px;
+  left: 400px;
   font-weight: 800;
   font-family: Poppins;
   font-size: 120px;
-  color:#fff
+  color: #fff;
 }
-.tochaintechcss{
-  position:relative;
-  right:100px;
+.tochaintechcss {
+  position: relative;
+  right: 100px;
+  text-align: center;
 }
-.welcomeContainerSubdiv{
-  position:relative;
-  right:90px;
+.welcomeContainerSubdiv {
+  position: relative;
+  right: 90px;
   font-weight: 400px;
   font-size: 18px;
   text-align: center;
 }
-.getStartedCss{
-  position:relative;
-  width:211px;
-  height:66px;
-  background:#fff;
-  border:3px solid #fff;
-  border-radius:50px;
-  left:180px;top:10px; 
+.getStartedCss {
+  position: relative;
+  width: 211px;
+  height: 66px;
+  background: #fff;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  left: 180px;
+  top: 10px;
   font-weight: 500px;
   font-size: 18px;
-  color:#000;
-  display:flex;
+  color: #000;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.servicesCss{
+.servicesCss {
   font-size: 50px;
   font-weight: 600px;
 }
-.servicesContainer{
-  position:relative;
-  top:40px;
-  left:200px;
+.servicesContainer {
+  position: relative;
+  top: 40px;
+  left: 200px;
   font-family: Poppins;
 }
-.offeredServicesDivCss{
-display: flex;
-justify-content:center;
-width:1032px;
-}
-.blockchaindiv{
-  position:relative;
-  top:60px;
-  width:293px;
-  height:410px;
-  position:relative;
-  
-  border-radius:10px;
-  border:3px solid #000;
-}
-.blockchaindivheading{
+.offeredServicesDivCss {
   display: flex;
-  position:relative;
-  top:10px;
-  left:10px
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
 }
-.exploredivcss{
-  position:relative;
-  top:45px;
-  left:120px;
-  border:2px solid #000;
+.blockchaindiv {
+  position: relative;
+  top: 60px;
+  width: 293px;
+  height: 410px;
+
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 3px solid #000;
+}
+
+.blockchaindivheading {
+  display: flex;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.exploredivcss {
+  position: relative;
+  top: 45px;
+  left: 120px;
+  border: 2px solid #000;
   background-color: #fff;
-  width:117.8px;height:38.55px;
-  border-radius:50px;padding:5px;
-  display:flex;align-items: center;justify-content: space-between;
+  width: 117.8px;
+  height: 38.55px;
+  border-radius: 50px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightsCss {
+  position: relative;
+  top: 50px;
+  color: #98a6ac;
+  font-size: 14px;
+  font-weight: 500px;
+}
+.discoverCss {
+  font-size: 18px;
+  font-weight: 500px;
+}
+.footerCss {
+  width: 1921;
+  position: relative;
+  top: 150px;
+  height: 266px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.footerHeadingCss {
+  position: relative;
+  top: 40px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getStartedArrowCss{
+  position:relative;
+  left:20px;
+  width:31px;
+  height:31px;
+  border-radius:100%;
+  background: #000;
 }
 ul {
   list-style-type: none;
@@ -114,7 +163,110 @@ nav ul li a {
 }
 nav {
   width: 725.24px;
-
 }
+@media screen and (max-width: 375px) {
+  .logoCss {
+    position: relative;
 
+    left: 18px;
+    font-size: 20px;
+  }
+  .navBarSubDivCss {
+    position: absolute;
+    left: 90px;
+    top: 42px;
+  }
+  nav {
+    width: 280px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+  .navBarCss {
+   
+    background: black;
+
+    height: 400px;
+  }
+
+  .welcomeContainerCss {
+    position: absolute;
+
+    left: 100px;
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 30px;
+    color: #fff; 
+  }
+  .rightsCss {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+  }
+
+  .servicesContainer {
+    position: relative;
+    top: 40px;
+    left: 0px;
+  }
+  .offeredServicesDivCss {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blockchaindiv {
+    margin-left: 0px;
+    margin-top: 10px;
+
+    position: relative;
+    top: 20px;
+
+    width: 243px;
+   
+    
+  }
+  .servicesCss {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .discoverCss {
+    font-size: 16px;
+    font-weight: 500px;
+    width: 98%;
+  }
+  .exploredivcss {
+    position: relative;
+    top: 45px;
+    left: 50px;
+  }
+  .footerHeadingCss {
+    position: relative;
+    top: 10px;
+    right: 10%;
+  }
+  .tochaintechcss {
+    margin-left:60px;
+   
+  }
+  .getStartedCss {
+  position: relative;
+  left:5px;
+  margin-right: 100px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: left;
+   width: 140px;
+  height: 66px;
+  font-size:15px;
+  }
+  .getStartedArrowCss{
+  position:relative;
+  left:20px;
+  }
+  .welcomeContainerSubdiv {
+  font-size: 15px;
+  margin-left:20px
+  }
+}
 /* https://www.figma.com/file/MSutr7amn9zrsUkWQqfTS0/Assignment?type=design&node-id=1-2&mode=design&t=7uD2CTYAwm4BTZ9a-0 */
